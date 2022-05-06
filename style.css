@@ -1,0 +1,92 @@
+
+.container{
+    max-width: 1440px; 
+}
+.btn-primary{
+    background-color: black;
+    color: white;
+    border-color: black;  
+
+}
+.btn-outline-primary{
+    background-color: transparent;
+    color: black;
+    border-color: black;  
+}
+.btn-outline-white{
+    background-color: transparent;
+    color: white;
+    border-color: white;  
+}
+.btn {
+    border-radius: 50px; 
+} 
+
+.navShadow{
+    box-shadow: 0 1px 3px rgba(0,0,0,.1),0 2px 2px rgba(0,0,0,.06),0 0 2px rgba(0,0,0,.07);
+}
+.navLink{
+    color: black;
+    text-decoration: none;
+}
+.navLink:hover{
+    color: green;
+}
+
+.bg-secnd{
+    background-color:#d4e9e2; 
+}
+.bg-green{
+    background-color:#1e3932; 
+}
+.font-md{
+    font-size: 19px; 
+    line-height : 1.75; 
+}
+.font-small{
+    font-size: 14px;
+}
+
+@media screen and (min-width: 1023px) {
+    .content h2{ 
+        font-size: 50px;
+        width: 80%;
+        
+    }
+  }
+
+.content P{
+    font-size: 24px; 
+
+}
+
+.footerShadow{
+    box-shadow: 0 -1px 3px rgba(0,0,0,.1),0 -2px 2px rgba(0,0,0,.06),0 0 2px rgba(0,0,0,.07);
+}
+li{
+    list-style: none;
+   
+}
+
+.footer-nav li a{
+    font-size: 14px;
+    text-decoration: none;
+    color: #1e3932;
+
+}
+.iconSet a{
+    color : black; 
+    
+}
+.siteNav a{
+    text-decoration: none;
+    color: #1e3932;
+}
+.siteNav a:hover{
+    text-decoration: underline;
+}
+.btn-outline-primary:hover{
+    background-color: rgb(238, 238, 238);
+    color: black;
+    border: #1e3932;
+}
